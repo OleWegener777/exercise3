@@ -1,0 +1,153 @@
+@font-face {
+  font-family: "myfont";
+  src: url(./RacingSansOne-Regular.ttf);
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0px 0px;
+  color: #4b4b4b;
+
+  header {
+    background-color: #7c8685;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: #4b4b4b solid 1px;
+    justify-content: center;
+    display: flex;
+
+    align-items: center;
+    margin: 0px 0px;
+
+    p {
+      margin: 10px 20px;
+    }
+    ul {
+      gap: 10px;
+      margin: 10px 10px;
+      display: flex;
+      list-style: none;
+      a:hover {
+        border-color: #bbe9db;
+      }
+      a {
+        text-decoration: none;
+        background-color: #9ba6a5;
+        border-radius: 5px;
+        color: #4b4b4b;
+        padding-left: 4px;
+        padding-right: 4px;
+        font-weight: bold;
+        border: solid #4b4b4b 1px;
+      }
+    }
+  }
+
+  background-color: #9ba6a5;
+  h1 {
+    margin-bottom: 15px;
+  }
+  video {
+    width: 600px;
+    border-radius: 15px;
+  }
+  p {
+    margin: 15px 12%;
+    font-weight: bold;
+  }
+  .intro {
+    margin: 40px 20px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 110%;
+  }
+  .card1 {
+    margin-bottom: 25px;
+    border-radius: 10px;
+
+    h2 {
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 10px;
+      margin-bottom: 6px;
+    }
+
+    .text {
+      width: 60%;
+      margin-bottom: 4px;
+      background-color: #7c8685;
+      border-radius: 10px;
+      margin-top: 0px;
+      align-items: end;
+      p {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+      }
+      position: relative;
+      a:hover {
+        border-color: #bbe9db;
+      }
+      a {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        width: 10%;
+
+        font-size: 80%;
+
+        background-color: #9ba6a5;
+        border-radius: 5px;
+        color: #4b4b4b;
+        padding: 4px;
+        border: solid #4b4b4b;
+      }
+    }
+    img {
+      border-radius: 10px;
+      width: 150px;
+      height: 204px;
+      margin-bottom: 4px;
+    }
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+  }
+  img:hover {
+    cursor: grab;
+  }
+  img:active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    transform: translate(-50%, -50%) scale(3);
+  }
+  .card1 section img {
+    display: flex;
+    height: 100px;
+    width: 150px;
+    margin-bottom: 4px;
+  }
+}
+.footer {
+  font-family: myfont;
+  border-top: #4b4b4b solid 2px;
+  font-size: 120%;
+  margin: 0% 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    margin-left: -0.7%;
+    margin-bottom: 2px;
+    margin-top: 10px;
+  }
+  p{font-weight: lighter;}
+}
